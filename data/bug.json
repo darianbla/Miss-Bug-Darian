@@ -10,116 +10,7 @@
       "fullname": "Puki Ka"
     }
   },
-  {
-    "_id": "r3AWu",
-    "title": "cannot save",
-    "severity": 2,
-    "description": "gfgbfgbhfgv",
-    "createdAt": 1678257675373,
-    "creator": {
-      "_id": "",
-      "fullname": ""
-    }
-  },
-  {
-    "_id": "abc123",
-    "title": "Cannot save a Car",
-    "description": "problem when clicking Save",
-    "severity": 3,
-    "createdAt": 1542107359454,
-    "creator": {
-      "_id": "",
-      "fullname": ""
-    }
-  },
-  {
-    "_id": "GeyLJ",
-    "title": "cccc",
-    "severity": 1,
-    "description": "ccc",
-    "createdAt": 1678288518238,
-    "creator": {
-      "_id": "u101",
-      "fullname": ""
-    }
-  },
-  {
-    "_id": "yoqFR",
-    "title": "cvfgbtgh",
-    "severity": 2,
-    "description": "gfgf",
-    "createdAt": 1678263712166,
-    "creator": {
-      "_id": "",
-      "fullname": ""
-    }
-  },
-  {
-    "_id": "Pxo5S",
-    "title": "gey",
-    "severity": 1,
-    "description": "g",
-    "createdAt": 1678261148208,
-    "creator": {
-      "_id": "",
-      "fullname": ""
-    }
-  },
-  {
-    "_id": "xuotD",
-    "title": "ss",
-    "severity": 1,
-    "description": "s",
-    "createdAt": 1678263673016,
-    "creator": {
-      "_id": "",
-      "fullname": ""
-    }
-  },
-  {
-    "_id": "FzX3n",
-    "title": "ss",
-    "severity": 1,
-    "description": "ss",
-    "createdAt": 1678263680915,
-    "creator": {
-      "_id": "",
-      "fullname": ""
-    }
-  },
-  {
-    "_id": "dqJjt",
-    "title": "ss",
-    "severity": 1,
-    "description": "s",
-    "createdAt": 1678263686277,
-    "creator": {
-      "_id": "",
-      "fullname": ""
-    }
-  },
-  {
-    "_id": "NqZI6",
-    "title": "ss",
-    "severity": 1,
-    "description": "ss",
-    "createdAt": 1678263691327,
-    "creator": {
-      "_id": "",
-      "fullname": ""
-    }
-  },
-  {
-    "_id": "jkwH4",
-    "title": "ss",
-    "severity": 1,
-    "description": "s",
-    "createdAt": 1678263783495,
-    "creator": {
-      "_id": "",
-      "fullname": ""
-    }
-  },
+  
   {
     "_id": "Z8UIJ",
     "title": "sss",
@@ -129,17 +20,6 @@
     "creator": {
       "_id": "qFFyc",
       "fullname": "Puk Gag"
-    }
-  },
-  {
-    "_id": "VOrDr",
-    "title": "vvvvv",
-    "severity": 2,
-    "description": "vvvv",
-    "createdAt": 1678288126225,
-    "creator": {
-      "_id": "u101",
-      "fullname": ""
     }
   },
   {
