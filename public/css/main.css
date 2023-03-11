@@ -1,0 +1,223 @@
+/** @format */
+
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#app {
+  background: #fae6ef;
+  margin-block-start: 20px;
+  border-radius: 1.2em;
+  padding-block: 20px;
+  padding-inline: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.05em;
+}
+
+button:hover {
+  color: rgb(180, 180, 180);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  font-family: cursive;
+  font-size: 1.5em;
+  text-align: center;
+  margin-block-end: 20px;
+  color: #a7a7a7;
+}
+
+header h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #6c9ebd;
+}
+
+a:hover {
+    color: #8eb6cf;
+}
+
+.subheader {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-block-end: 20px;
+}
+
+.main-title {
+  text-align: center;
+  color: rgba(36, 7, 7, 0.685);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bug-list {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  list-style: none;
+  display: flex;
+  border-radius: 1em;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  padding: 1em;
+  background: radial-gradient(#fae6ef 0%, whitesmoke 100%);
+}
+
+.bug-preview,
+.bug-details,
+.bug-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  font-size: 1.1em;
+  background-color: whitesmoke;
+  color: #8b8b8b;
+  border-radius: 1em;
+  text-align: center;
+  padding: 1em;
+  width: 200px;
+  height: fit-content;
+  border: 0.2px solid #d8d8d8;
+  filter: drop-shadow(1px 1px 1px rgb(80, 80, 80));
+}
+
+.bug-preview > span:first-child {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  font-size: 1.1em;
+}
+
+.bug-preview h4 {
+  margin-block-start: 2.5em;
+  flex-grow: 1;
+}
+
+[class^="severity"] {
+  font-weight: bold;
+  margin-block-end: 40px;
+}
+
+.severity1 {
+  color: tomato;
+}
+.severity2 {
+  color: #b69a01;
+}
+.severity3 {
+  color: green;
+}
+
+.bug-preview .actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-block-end: 10px;
+}
+
+.bug-preview button {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+}
+
+.bug-edit,
+.bug-details {
+  margin: auto;
+  width: 400px;
+}
+
+.bug-edit form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-block-end: 10px;
+  text-align: start;
+}
+
+.bug-edit label {
+  display: flex;
+  gap: 5px;
+}
+
+.bug-edit .actions {
+  align-self: center;
+  margin-block-start: 20px;
+}
+
+.user-msg {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.success {
+  background-color: lightgreen;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
+
+.login-signup {
+  /* background-color: radial-gradient(#fae6ef 0%,#ebcfdc 100%); */
+  background: radial-gradient(#fae6ef 0%, #fbd9e8 100%);
+  border-radius: 1em;
+  padding: 1em;
+  filter: drop-shadow(1px 1px 3px rgb(60, 60, 60));
+}
+
+input {
+  outline: none;
+  border-radius: 1em;
+  border: 1px solid #ffd4e9;
+  height: 1.2em;
+  padding: 0.5em;
+  background-color: #eeeeee;
+  filter: drop-shadow(1px 1px 1px #ffe4f1);
+}
+
+input:focus {
+  background-color: #ffffff;
+}
+
+.bug-app {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-next-btn {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.nav-next-btn button {
+  text-shadow: #adadad 1px 1px 1px;
+  color: #f7f7f7;
+  padding: 1em;
+  border-radius: 3em;
+  background-color: #e8cbd9;
+}
+
+.nav-next-btn button:hover {
+  background-color: #ffd4e9;
+}
